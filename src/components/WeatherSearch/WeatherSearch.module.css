@@ -1,0 +1,109 @@
+.wrapperInput {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+  }
+  
+  .flexWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .iconLocation {
+    position: absolute;
+    top: 17px;
+    left: 6px;
+  }
+  
+  input {
+    padding: 13px 25px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #ffffffb0;
+  }
+  
+  .btnForm {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .btnForm:hover {
+    color: #ff4500;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(247, 243, 243, 0.466);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .wrapperInput {
+      width: 90%;
+      margin-top: 20px;
+    }
+    .iconLocation{
+        top:12px
+    }
+    input {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  
+    .btnForm {
+      top: 10px;
+      right: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) and (max-width: 768px) {
+    .wrapperInput {
+      width: 80%;
+      margin-top: 40px;
+    }
+    .iconLocation{
+        top:10px
+    }
+    input {
+      padding: 12px 22px;
+      font-size: 17px;
+    }
+  
+    .btnForm {
+      top: 12px;
+      right: 8px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+    input {
+      padding: 15px 30px;
+      font-size: 20px;
+    }
+  
+    .btnForm {
+      top: 18px;
+      right: 12px;
+    }
+  }
+  
