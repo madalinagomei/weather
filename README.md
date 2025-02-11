@@ -56,7 +56,8 @@ A simple and intuitive weather application that provides real-time weather infor
 
 ## 📸 Screenshots
 
-==soon== 
+![image](https://github.com/user-attachments/assets/dc7f8be6-32f5-4ab6-81a6-0733f60538a0)
+
 *Example of the app displaying sunny weather.* ☀️
 
 
